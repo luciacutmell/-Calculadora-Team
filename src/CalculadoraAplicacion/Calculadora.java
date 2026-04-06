@@ -8,4 +8,5 @@ Calculadora calc = new Calculadora();
 System.out.println("--- INICIO DE LA CALCULADORA ---"); 
 System.out.println("Suma: " + calc.sumar(10, 5)); 
 } 
+public double potencia(double base, double exponente) { return Math.pow (base, exponente);}
 } 
